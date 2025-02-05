@@ -43,7 +43,6 @@ To check the service logs:
 ```bash
 journalctl --user -u update_discord.service -f
 ```
-If the terminal remains open, an error may have occurred. Check the logs for details.
 
 ## 📜 License
 This project is licensed under the MIT License.
