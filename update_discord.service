@@ -7,7 +7,6 @@ ExecStartPre=/bin/sleep 5
 ExecStart=%h/scripts/discord/launch_update.sh
 StandardOutput=journal
 StandardError=journal
-Restart=on-failure
 Environment=SUDO_ASKPASS=%h/scripts/discord/askpass.sh
 
 [Install]
